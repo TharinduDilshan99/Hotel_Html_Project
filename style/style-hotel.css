@@ -1,0 +1,167 @@
+body {
+	margin:0;
+	padding:0; 
+	font-family: 'Lato', sans-serif;
+}
+h1
+{
+	margin-top:40px;
+	color:white;
+}
+p{
+	margin-top:40px;
+	color:white;
+	font-size:40px;
+	font-weight:bold;
+}
+.searchHotel {
+  width: 660px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  opacity:0.9;
+}
+.searchHotel:hover
+{
+	opacity:1;
+}
+.btnSearch
+{
+	width: 100px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	background-color: #0080ff;
+	padding: 10px 20px 10px 20px;
+	color:white;
+}
+.btnSearch:hover
+{
+	cursor:pointer;
+}
+.date
+{
+  width: 200px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 8px 20px 8px 40px;
+  margin-bottom:20px;
+  opacity:0.9;
+}
+.chkIn
+{
+	font-size: 14px;
+	margin-right:150px;
+	font-weight:bold;
+	color:white;
+	
+}
+.chkOut
+{
+	font-size: 14px;
+	color:white;
+	font-weight:bold;
+}
+
+/*box background*/
+.container{
+	width:65%;
+	padding:10px;
+	background:#ddd;
+	margin: 100px auto;
+	display:flex;
+	justify-content:center;
+	position: relative;
+	background: rgba(255,255,255,.2);
+}
+/*box*/
+.box{
+	width:200px;
+	height:200px;
+	background:#1c81a3;
+	margin: 0px 10px;
+	transition:1s;
+}
+/*box hover*/
+.box:hover{
+	transform:scale(1.1);
+	background:#07bbf7;
+	box-shadow:2px 2px 2px #000;
+	z-index:2;
+	cursor:pointer;
+}
+@media screen and (max-width: 800px) 
+{
+.btnSearch
+{
+	width: 70px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	background-color: #0080ff;
+	padding: 10px 5px 10px 5px;
+	color:white;
+}
+.searchHotel {
+  width: 360px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  opacity:0.9;
+}
+.date
+{
+  width: 100px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  font-size: 10px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 8px 0px 8px 5px;
+  margin-bottom:20px;
+  opacity:0.9;
+}
+.chkIn
+{
+	font-size: 14px;
+	margin-right:45px;
+	font-weight:bold;
+	color:white;
+	
+}
+.chkOut
+{
+	font-size: 14px;
+	color:white;
+	font-weight:bold;
+}
+p{
+	margin-top:40px;
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+}
+}

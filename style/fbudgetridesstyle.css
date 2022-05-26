@@ -1,0 +1,79 @@
+/*box background*/
+.container{
+	width:90%;
+    height: 70%;
+	padding:10px;
+	background:#ddd;
+	margin: 100px auto;
+	justify-content:center;
+	position: relative;
+	background: rgba(255,255,255,.2);
+}
+/*box*/
+.box{
+	width:540px;
+	height:100px;
+	background:#1c81a3;
+	margin: 7px 10px;
+	transition:1s;
+	background: rgba(255,255,255,.2);
+	border-radius: 5px;
+	float: left;
+	margin-left: 42px;
+}
+/*box hover*/
+.box:hover{
+	transform:scale(1.1);
+	background:#07bbf7;
+	box-shadow:2px 2px 2px #000;
+	z-index:2;
+}
+
+
+/*searchpacks*/
+.searchPacks {
+  width: 700px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+  margin-top:30px;
+  margin-bottom:20px;
+  opacity:0.9;
+}
+.searchPacks:hover
+{
+	opacity:1;
+}
+.btnSearch
+{
+	width: 100px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	background-color: #0080ff;
+	padding: 10px 20px 10px 20px;
+	color:white;
+}
+.btnSearch:hover
+{
+	cursor:pointer;
+}
+/*h1*/
+#h1{
+	color:white;
+	margin-top:40px;
+	font-family: 'Lato', sans-serif;
+	margin-top: 5%;
+}
+/*hr*/
+#hr{
+	color: #ddd;
+	opacity: 0.5;
+	margin-top: 40px;
+}

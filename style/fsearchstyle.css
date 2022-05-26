@@ -1,0 +1,130 @@
+body {
+	margin:0;
+	padding:0; 
+	font-family: 'Lato', sans-serif;
+}
+.searchFlight{
+  width: 700px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 20px;
+  margin-top:30px;
+  margin-bottom:20px;
+  opacity:0.9;
+}
+.searchFlight:hover
+{
+	opacity:1;
+}
+.btnSearch
+{
+	width: 100px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	background-color: #0080ff;
+	padding: 10px 20px 10px 20px;
+	color:white;
+}
+.btnSearch:hover
+{
+	cursor:pointer;
+}
+.date
+{
+  width: 200px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 8px 20px 8px 40px;
+  margin-bottom:10px;
+  opacity:0.9;
+}
+.from{
+	width: 200px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 40px;
+    margin-bottom:10px;
+    opacity:0.9;
+}
+.where{
+	width: 200px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 40px;
+    margin-bottom:10px;
+    opacity:0.9;
+}
+
+.depart
+{
+	font-size: 14px;
+	margin-left:400px;
+	font-weight:bold;
+	color:white;
+	
+}
+.return
+{
+	font-size: 14px;
+	margin-left:150px;
+	color:white;
+	font-weight:bold;
+}
+/*box background*/
+.container{
+	width:87%;
+	padding:10px;
+	background:#ddd;
+	margin: 100px auto;
+	display:flex;
+	justify-content:center;
+	position: relative;
+	background: rgba(255,255,255,.2);
+}
+/*box*/
+.box{
+	width:200px;
+	height:200px;
+	margin: 0px 30px;
+	transition:1s;
+}
+/*box hover*/
+.box:hover{
+	transform:scale(1.1);
+	box-shadow:2px 2px 2px #000;
+	z-index:2;
+}
+/*hr*/
+#hr{
+	color:gray;
+	margin-top:50px;
+	opacity:0.5;
+}
+/*h1*/
+#h1{
+	color:white;
+	margin-top:70px;
+}
+ 

@@ -1,0 +1,74 @@
+.card {
+
+  width: 220px;
+  margin: 20px 15px;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 100px;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  font-size: 20px;
+  text-align: center;
+}
+/*box background*/
+.container{
+	width:65%;
+	padding:10px;
+	background:#ddd;
+	margin: 100px auto;
+	display:flex;
+	justify-content:center;
+	position: relative;
+	background: rgba(255,255,255,.0);
+}
+/*box*/
+.box{
+	width:200px;
+	height:200px;
+	background:#1c81a3;
+	margin: 0px 10px;
+	transition:1s;
+}
+/*box hover*/
+.box:hover{
+	transform:scale(1.1);
+	background:#07bbf7;
+	box-shadow:2px 2px 2px #000;
+	z-index:2;
+	cursor:pointer;
+}
