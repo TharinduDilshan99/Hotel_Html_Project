@@ -1,0 +1,11 @@
+<?php
+	session_start();
+	if(isset($_POST['btnLog']))
+	{
+		session_destroy();
+		header("Location:../login.php");
+	}else
+	{
+		header("Location:profile.php");
+	}
+?>
