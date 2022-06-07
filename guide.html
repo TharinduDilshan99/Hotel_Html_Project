@@ -1,0 +1,127 @@
+<html>
+	<head>
+		<title></title>	
+		<link rel="Stylesheet" href="style/guide.css"/>
+		<script type="text/javascript" src="js/guide.js"></script>
+		
+	</head>
+	<body style="background-image:url(images/roller.jpg)">
+		<!--Header-->
+		<div class="header">
+			 <img src="images/logo.png" align ="center" width="300" height="120" alt="Logo">
+		</div>
+		<div class="topnav">
+			<input type="button" id="btnLog" value="Log In"/>	
+			<input type="button" id="btnSign" value="Sign Up"/>
+			<input type="button" onclick="window.location.href = 'login.html';" id="btnLog" value="Log In"/>	
+			<input type="button" onclick="window.location.href = 'register.html';" id="btnSign" value="Sign Up"/>
+			<a href="Home.html">Home</a>
+			<a href="hotel.html">Hotels</a>
+			<a href="flight.html">Flights</a>
+			<a href="resturent.html">Restaurants</a>
+			<a class="active" href="#">Guide</a>	
+			<a href="contact.html">Contact Us</a>
+		</div>
+		
+		<h2 style="color:white;"><center> Contact Guide</center> </h2>
+		
+		
+			
+		<div class="div1">
+		
+			<form id="guidedetail">
+		
+			<h3>What type of guide do you like?</h3>
+			<label class="radio"> 
+				<input type="radio" name="r1" checked>
+				<span>Local</span>
+			</label>
+			<label class="radio">
+				<input type="radio" name="r1">
+				<span>Foreign</span>
+			</label>
+			
+			<h3>Age of the preferred guide</h3>
+			<label class="radio"> 
+				<input type="radio" name="r2" checked>
+				<span>21-29</span>
+			</label>
+			<label class="radio">
+				<input type="radio" name="r2">
+				<span>30-39</span>
+			</label>
+			<label class="radio">
+				<input type="radio" name="r2">
+				<span>40-49</span>
+			</label>
+			<label class="radio">
+				<input type="radio" name="r2">
+				<span>50+</span>
+			</label>
+			
+			<h3>Gender of the preferred guide</h3>
+			<label class="radio"> 
+				<input type="radio" name="r3" checked>
+				<span>Male</span>
+			</label>
+			<label class="radio">
+				<input type="radio" name="r3">
+				<span>Female</span>
+			</label>
+			
+			
+			<h3>Language of the preferred guide</h3>
+			
+			<select class="custom-select">
+				<option value="0">English</option>
+				<option value="1">Sinhala</option>
+				<option value="2">Tamil</option>
+				<option value="3">Greek</option>
+				<option value="4">Spanish</option>
+				<option value="5">Hindi</option>
+				<option value="6">Dutch</option>
+				<option value="7">Swedish</option>
+				<option value="8">Finnish</option>
+				<option value="9">Norwegian</option>
+				<option value="10">Italian</option>
+				<option value="11">Japanese</option>
+				<option value="12">Chinese</option>
+			  </select>
+			<br><br><br>
+			<label class="container">Do you agree to the terms and conditions?
+				<input type="checkbox" id="terms" name="terms" onchange="activateButton(this)">
+				<span class="checkmark"></span>
+			</label>
+			
+			<br><br>
+			<center><input type="submit" id="submit" name="submit" class="button1" disabled></center>
+		
+		</form>
+		</div>
+			
+		
+				
+		
+		
+			<!-- Footer-->
+		<footer class="footer">
+
+			<p class="footer-name"></p>
+				<img src="images/logo.png" align ="center" width="120" height="30" alt="Logo">
+			<p class="footer-links">
+				<a href="#">Home</a>
+				.
+				<a href="#">Term of Use</a>
+				.
+				<a href="news.html">News</a>
+				.
+				<a href="about.html">About Us</a>
+				.
+				<a href="#">Help Center</a>
+			</p>
+
+			<p class="footer-copyright">FLY7 &copy; 2019</p>
+
+		</footer>
+	</body>
+</html>
