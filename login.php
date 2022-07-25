@@ -114,8 +114,10 @@
 			</p>
 
 			<p class="footer-copyright">FLY7 &copy; 2019</p>
+		
 	</footer>
 			
 	</body>
 		
 </html>
+	
